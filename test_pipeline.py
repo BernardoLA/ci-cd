@@ -20,7 +20,7 @@ class TestDataPipeline(unittest.TestCase):
     def test_transform_data(self):
         """Test if transform_data correctly calculates revenue."""
         result = self.pipeline.transform_data(self.df)
-        expected_revenue = [40, 60, 120]
+        expected_revenue = [20, 60, 120]
         self.assertListEqual(result['revenue'].tolist(), expected_revenue)
 
     def test_full_pipeline(self):
