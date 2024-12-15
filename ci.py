@@ -1,1 +1,0 @@
-print("This CI/CD test is running as expected!")
